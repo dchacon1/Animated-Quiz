@@ -249,10 +249,6 @@
     box-shadow: 0px 0px 100px 230px rgba(0, 0, 0, 0);
     transition: box-shadow 500ms ease, height 500ms ease;
     overflow: hidden;
-
-    &:hover:not(.quiz-ended) {
-        box-shadow: 0px 0px 100px 230px rgba(0, 0, 0, .9);
-    }
 }
 
 //================================
